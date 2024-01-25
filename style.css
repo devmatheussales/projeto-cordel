@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte01: 'Passion One', sans-serif;
+    --fonte02: 'Sriracha', cursive;
+}
+* {
+    margin: 0px;
+}
+
+
+header {
+    background-color: black;
+    padding: 50px;
+}
+
+h1 {
+    font-family: var(--fonte01);
+    font-size: 10vw;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+}
+h2 > a{
+    color: white;
+    text-decoration: none;
+}
+
+ pre {
+    font-family: var(--fonte02);
+    font-size: 5vw;
+    padding: 50px;
+} 
+
+article#fundo01 {
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+article#fundo02 {
+    color: white;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+pre.fundo-transparente {
+    background-color: rgba(0, 0, 0, 0.301);
+}
+main {
+    margin: auto;
+}
+
+footer {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+/* Falta adicionar um fundo transparente que não ocupe o espaço total da imagem, ocupando apenas até as bordas dos textos */
